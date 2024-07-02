@@ -8,7 +8,7 @@ public:
         {
             mask ^= num;
         }
-        unsigned int umask = static_cast<unsigned int>(mask);
+        unsigned int umask = static_cast<unsigned iknt>(mask);
         int distinguishingBit = umask & (-umask);
 
         int x = 0, y = 0;
